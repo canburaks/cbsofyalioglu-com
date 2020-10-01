@@ -1,0 +1,149 @@
+{{!--
+This template is used for the posts that are marked as pages.
+--}}
+{{!< default}}
+
+{{!-- This block preloads specific assets for the post page --}}
+{{#contentFor "preload"}}
+  <link rel="preload" href="{{asset "css/post.css"}}" as="style" />
+  <link rel="preload" href="{{asset "js/page.js"}}" as="script" />
+{{/contentFor}}
+
+{{!-- This block loads specific styles for the post page --}}
+{{#contentFor "styles"}}
+
+
+{{/contentFor}}
+
+{{!-- The tag below means: insert everything in this file
+into the {body} of the default.hbs template --}}
+{{> header}}
+
+
+  {{!-- Everything inside the #post tags pulls data from the post --}}
+  <section id="feature-section" class="feature-section pt-6">
+    <div class="flex-container w-container">
+      <div class="div-block-12">
+        <img src="{{asset 'images/cbsofyalioglu-pp.jpg'}}" loading="lazy" alt="" class="image-16">
+        <div class="div-block-11"></div>
+      </div>
+      <div class="feature-image-mask">
+        <img src="{{asset 'images/cbsofyalioglu-pp.jpg'}}" alt="" class="feature-image"></div>
+      <div class="div-block-9">
+        <h2 class="heading-6">Works</h2>
+        <p class="paragraph-7">Hi 👋, I&#x27;m Can Burak Sofyalıoğlu. I am an engineer. I design and build websites and
+          e-commerce stores. You will find my past works below. I am using JavaScript and Python as well as no-code
+          tools such as WebFlow and Wix.<br>‍</p>
+      </div>
+      <div class="div-block-13"></div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery">
+    <div class="centered-container w-container">
+      <h2 class="heading-7">La-Cuisinette Organic/Vegan Pasta Store</h2>
+      <p class="paragraph-8">La-Cuisinette is an organic and only-vegan pasta producer from Turkey. The website was
+        designed and  built by myself.</p>
+      <div class="gallery-grid-container"><a href="#" id="w-node-cccc16a0784e-84c1c19e"
+          class="gallery-lightbox w-inline-block w-lightbox">
+          <img src="{{asset 'images/ispanak-sayfa-small.jpg'}}"
+            alt="Ispanaklı Makarna Sayfası"
+            class="gallery-thumbnail">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "width": 150,
+      "height": 150,
+      "fileName": "image-placeholder.svg",
+      "origFileName": "image-placeholder.svg",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "_id": "example_img",
+      "type": "image",
+      "fileSize": 2063
+    }
+  ],
+  "group": "gallery"
+}</script></a><a href="#" id="w-node-cccc16a07850-84c1c19e" class="gallery-lightbox w-inline-block w-lightbox">
+    <img
+            src="{{asset 'images/organik-features.jpg'}}" alt="Organik ve Vegan Dünya"
+            class="gallery-thumbnail">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "width": 150,
+      "height": 150,
+      "fileName": "image-placeholder.svg",
+      "origFileName": "image-placeholder.svg",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "_id": "example_img",
+      "type": "image",
+      "fileSize": 2063
+    }
+  ],
+  "group": "gallery"
+}</script></a><a href="#" id="w-node-cccc16a07852-84c1c19e" class="gallery-lightbox w-inline-block w-lightbox"><img
+            src="{{asset 'images/message-1.jpg'}}" alt="Vegan üretiyoruz."
+            class="gallery-thumbnail">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "width": 150,
+      "height": 150,
+      "fileName": "image-placeholder.svg",
+      "origFileName": "image-placeholder.svg",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "_id": "example_img",
+      "type": "image",
+      "fileSize": 2063
+    }
+  ],
+  "group": "gallery"
+}</script></a><a href="#" id="w-node-cccc16a07854-84c1c19e" class="gallery-lightbox w-inline-block w-lightbox">
+        <img
+            src="{{asset 'images/tatli-biber-info.jpg'}}" alt="Tatlı Biberli Makarna"
+            class="gallery-thumbnail">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "width": 150,
+      "height": 150,
+      "fileName": "image-placeholder.svg",
+      "origFileName": "image-placeholder.svg",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "_id": "example_img",
+      "type": "image",
+      "fileSize": 2063
+    }
+  ],
+  "group": "gallery"
+}</script></a>
+    <a href="#" id="w-node-cccc16a07856-84c1c19e" class="gallery-lightbox w-inline-block w-lightbox">
+        <img
+            src="{{asset 'images/brokoli-info.jpg'}}" alt="Ispanaklı makarna"
+            class="gallery-thumbnail">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "width": 150,
+      "height": 150,
+      "fileName": "image-placeholder.svg",
+      "origFileName": "image-placeholder.svg",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
+      "_id": "example_img",
+      "type": "image",
+      "fileSize": 2063
+    }
+  ],
+  "group": "gallery"
+}</script></a></div>
+    </div>
+  </section>
+
+{{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
+{{#contentFor "scripts"}}
+
+{{/contentFor}}

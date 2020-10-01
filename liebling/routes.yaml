@@ -1,0 +1,42 @@
+routes:
+  /signup/: members/signup
+  /signin/: members/signin
+  /account/: members/account
+  /membership/: members/membership
+  /sitemap/:
+    template: sitemap
+    content_type: text/xml
+
+  /blog/:
+    controller: channel
+    filter: tag:[hash-tr] # -> #blog internal tag
+    data:
+      post: page.blog
+    order: published_at desc
+    template: index
+    limit: 10
+
+  /en/:
+    controller: channel
+    filter: tag:[hash-eng] # -> #en internal tag
+    data:
+      post: page.en
+    order: published_at desc
+    template: index
+    limit: 10
+
+  /works/:
+    template: cbs-works
+
+collections:
+  /:
+    permalink: /post/{slug}/
+    template:
+      # - godo-home-blog
+      # - godo-home-travel
+      # - godo-home-travel-featured
+      # - godo-home-fashion-concept
+      - index
+taxonomies:
+  tag: /{slug}/
+  author: /author/{slug}/

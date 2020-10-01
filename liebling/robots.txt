@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: https://www.cbsofyalioglu.com/signup/
+Disallow: https://www.cbsofyalioglu.com/signin/
+Disallow: https://www.cbsofyalioglu.com/membership/
+Disallow: https://www.cbsofyalioglu.com/account/
+Disallow: https://www.cbsofyalioglu.com/author/canburaks/
+Disallow: https://www.cbsofyalioglu.com/podcast/
+Disallow: https://www.cbsofyalioglu.com/category-header/
+Disallow: https://www.cbsofyalioglu.com/travel/
+
+
+Disallow: https://www.cbsofyalioglu.com/podcast/
+Disallow: https://www.cbsofyalioglu.com/fashion/
+Disallow: https://www.cbsofyalioglu.com/travel-featured/
+Disallow: https://www.cbsofyalioglu.com/travel/
+Disallow: https://www.cbsofyalioglu.com/category-header/
+Disallow: https://www.cbsofyalioglu.com/category/
+Disallow: https://www.cbsofyalioglu.com/personal/
+Disallow: https://www.cbsofyalioglu.com/membership/
+Disallow: https://www.cbsofyalioglu.com/account/
+Disallow: https://www.cbsofyalioglu.com/signin/
+Disallow: https://www.cbsofyalioglu.com/signup/
+Disallow: https://www.cbsofyalioglu.com/podcast/
+
