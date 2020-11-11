@@ -1,6 +1,72 @@
 {{!--
 This header template is shared across all the pages.
 --}}
+  <div data-collapse="medium" data-animation="default" data-duration="400" 
+data-w-id="e5d91725-68e8-3686-2e11-8c00a50a9ef1" role="banner" class="navbar w-nav">
+    <div class="blur-box"></div>
+    <div class="div-block-6">
+      <a href="{{@site.url}}" class="brand w-nav-brand"><img src="{{asset "images/cbsofyalioglu.png"}}" loading="lazy" alt="" class="image-6"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        {{#if @site.navigation}}
+          {{navigation}}
+        {{!-- 
+        <a href="/blog/" class="nav-link w-nav-link">Blog (TR)</a>
+        <a href="/en/" class="nav-link w-nav-link">Blog (ENG)</a>
+        <a href="/works/" class="nav-link w-nav-link">Works</a>
+        --}}
+        {{/if}}
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="icon-2 w-icon-nav-menu">
+        <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="0.5" x2="30" y2="0.5" stroke="white"/>
+          <line x1="10" y1="8.5" x2="30" y2="8.5" stroke="white"/>
+          <line y1="15.5" x2="30" y2="15.5" stroke="white"/>
+        </svg>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{{!-- 
+
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="5f9683cc-41b8-b563-6b46-009ed46f5988" style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" role="banner" class="navbar w-nav">
+    <div class="blur-box"></div>
+    <div class="div-block-6">
+      <a href="{{@site.url}}" class="brand w-nav-brand"><img src="{{asset "images/cbsofyalioglu.png"}}" loading="lazy" alt="" class="image-6"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a href="#" class="nav-link w-nav-link">Blog (TR)</a>
+        <a href="#" class="nav-link w-nav-link">Blog (ENG)</a>
+        <a href="#" class="nav-link w-nav-link">Works</a>
+        <div data-hover="" data-delay="0" class="w-dropdown">
+          <div class="w-dropdown-toggle">
+            <div class="icon w-icon-dropdown-toggle"></div>
+            <div class="text-block">Social</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list">
+            <div class="div-block-7">
+              <ul role="list" class="socials w-list-unstyled">
+                <li class="list-item-2">
+                  <a href="#" class="w-inline-block"><img src="{{asset "images/Frame-4.png"}}" loading="lazy" alt="" class="image-7"></a>
+                </li>
+                <li class="list-item-2">
+                  <a href="#" class="w-inline-block"><img src="{{asset "images/Frame-5.png"}}" loading="lazy" alt="" class="image-7"></a>
+                </li>
+                <li class="list-item-2">
+                  <a href="#" class="w-inline-block"><img src="{{asset "images/moon-circle.svg"}}" loading="lazy" alt="" class="image-7"></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
 
 <header class="m-header {{#if background}}with-picture{{/if}} js-header">
   <div class="m-mobile-topbar" data-aos="fade-down">
@@ -139,3 +205,5 @@ This header template is shared across all the pages.
     </div>
   {{/if}}
 </header>
+
+--}}

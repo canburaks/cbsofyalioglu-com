@@ -6,6 +6,16 @@ routes:
   /sitemap/:
     template: sitemap
     content_type: text/xml
+  /.well-known/brave-rewards-verification.txt/:
+    template: brave
+  /news/rss-en/:
+    template: news/rss-en
+    content_type: text/xml
+  /news/rss-tr/:
+    template: news/rss-tr
+    content_type: text/xml
+  /bookmarks/:
+    template: bookmarks
 
   /blog/:
     controller: channel

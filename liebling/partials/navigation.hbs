@@ -4,17 +4,11 @@ Also it includes the big submenu.
 --}}
 
 {{#if isSecondary}}
-  <ul class="m-secondary-menu">
     {{#foreach navigation}}
-      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}">
-        <a href="{{url absolute="true"}}">{{label}}</a>
-      </li>
+      <a class="dropdown-link w-dropdown-link" href="{{url absolute="true"}}">{{label}}</a>
     {{/foreach}}
-  </ul>
 {{else}}
   {{#foreach navigation}}
-    <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}">
-      <a href="{{url absolute="true"}}">{{label}}</a>
-    </li>
+      <a class="nav-link w-nav-link" href="{{url absolute="true"}}">{{label}}</a>
   {{/foreach}}
 {{/if}}

@@ -23,9 +23,14 @@ into the {body} of the default.hbs template --}}
 {{!-- Special header.hbs partial to generate the <header> tag --}}
 {{> header background=@site.cover_image}}
 
+
+
 <main class="main-wrap">
   {{!-- Inject styles of the hero image to make it responsive --}}
   {{> hero background=@site.cover_image}}
+
+
+
   <div class="m-hero__content" data-aos="fade-down">
     <h1 class="m-hero-title bigger">{{@site.title}}</h1>
     {{#if @site.description}}
@@ -39,6 +44,9 @@ into the {body} of the default.hbs template --}}
     {{/if}}
   </div>
   </section>
+
+
+
   <div class="l-content">
     <div class="l-wrapper" data-aos="fade-up" data-aos-delay="300">
       <div class="l-grid centered">

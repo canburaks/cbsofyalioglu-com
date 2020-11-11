@@ -21,4 +21,8 @@ Disallow: https://www.cbsofyalioglu.com/account/
 Disallow: https://www.cbsofyalioglu.com/signin/
 Disallow: https://www.cbsofyalioglu.com/signup/
 Disallow: https://www.cbsofyalioglu.com/podcast/
+Disallow: https://www.cbsofyalioglu.com/blogging/
+Disallow: https://www.cbsofyalioglu.com/seo/
+Disallow: https://www.cbsofyalioglu.com/django/
+Disallow: https://www.cbsofyalioglu.com/tutorial/
 
